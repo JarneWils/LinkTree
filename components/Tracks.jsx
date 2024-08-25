@@ -53,14 +53,14 @@ const data = [
     title: "DAMPCAST - VOL.2 - Antwerp",
       subtitle: "Set",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
-    image: "/assets/images/Dampcast-vol.2-Antwerp.png",
+    image: "/assets/images/Dampcast-Vol.2-Antwerp.png",
     url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=541fc4e75fca44cdabefc3fd7f49be2b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
   {
     title: "DAMPCAST - VOL.1 - Kedeng Invites",
       subtitle: "Set",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
-    image: "/assets/images/Dampcast-vol.1-Kedeng-Invites.png",
+    image: "/assets/images/Dampcast-Vol.1-Kedeng-Invites.png",
     url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=541fc4e75fca44cdabefc3fd7f49be2b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
 
