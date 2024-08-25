@@ -1,0 +1,15 @@
+export default function Page() {
+  return (
+    <main >page</main>
+  );
+}
+
+--------------------------------
+
+const Component = () => {
+  return (
+    <div></div>
+  );
+}
+
+export default Component;
