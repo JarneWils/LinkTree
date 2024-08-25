@@ -13,14 +13,14 @@ const data = [
       subtitle: "New Release",
       icon: <ImSpotify className="text-[#00E052] text-lg mt-0.5 mr-2"/>,
     image: "/assets/images/Don't-Act-A-Fool.png",
-    url:"https://open.spotify.com/track/0ttJ1vAS5mZotIphvcKSAu?si=5330b2b6c4644dce",
+    url:"https://open.spotify.com/track/0ttJ1vAS5mZotIphvcKSAu?si=876bc042dc444946",
   },
   {
     title: "Don't Act A Fool - Rebellion Rexords",
       subtitle: "New Release",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
     image: "/assets/images/Don't-Act-A-Fool.png",
-    url:"https://open.spotify.com/track/0ttJ1vAS5mZotIphvcKSAu?si=5330b2b6c4644dce",
+    url:"https://soundcloud.com/user-219120497/damp-dont-act-a-fool-free-dl?in=damp-3670/sets/releases&si=2bfedb9306f44a66a61b976f7bc664a0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
 
   //Lastest RELEASES//
@@ -29,7 +29,7 @@ const data = [
       subtitle: "Playlist",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
     image: "/assets/images/All-Releases.png",
-    url:"https://soundcloud.com/damp-3670/sets/releases",
+    url:"https://soundcloud.com/damp-3670/sets/releases?si=dd42f9668f3043cfba3d9095a9722732&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
   
  //PLAYLISTS//
@@ -38,7 +38,7 @@ const data = [
       subtitle: "Hardtechno Playlist",
       icon: <ImSpotify className="text-[#00E052] text-lg mt-0.5 mr-2"/>,
     image: "/assets/images/Your-Favorite-Boy-Band.png",
-    url:"https://soundcloud.com/damp-3670/sets/releases",
+    url:"https://open.spotify.com/playlist/0FxXQd866AbRLolEwFKuL9?si=cfc6f60afbaf49d3",
   },
 
   //Sets//
@@ -47,21 +47,21 @@ const data = [
       subtitle: "Set",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
     image: "/assets/images/Tegendraats.png",
-    url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=541fc4e75fca44cdabefc3fd7f49be2b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=e7daee07e79c4f229ba10ef6488a7b07&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
   {
     title: "DAMPCAST - VOL.2 - Antwerp",
       subtitle: "Set",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
     image: "/assets/images/Dampcast-Vol.2-Antwerp.png",
-    url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=541fc4e75fca44cdabefc3fd7f49be2b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    url:"https://soundcloud.com/damp-3670/dampcast-pt2-antwerp?in=damp-3670/sets/sets&si=63da4a039ea84484aae2f26dc567f83e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
   {
     title: "DAMPCAST - VOL.1 - Kedeng Invites",
       subtitle: "Set",
       icon: <ImSoundcloud className="text-[#FF7700] text-xl xl:text-2xl mr-2 mt-0.5 xl:mt-0"/>,
     image: "/assets/images/Dampcast-Vol.1-Kedeng-Invites.png",
-    url:"https://soundcloud.com/damp-3670/damp-tegendraads-festival-mix?in=damp-3670/sets/sets&si=541fc4e75fca44cdabefc3fd7f49be2b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    url:"https://soundcloud.com/damp-3670/dampcast-afl-1-kedeng-invites?in=damp-3670/sets/sets&si=47b05e045b914e0e87bd165a2b4e5d09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
 
 ];
@@ -80,7 +80,7 @@ const Tracks = () => {
             <Link
             href={track.url}
             target="blank"
-            className="flex flex-row border-[2px] border-white/15 bg-white/5 p-2 xl:p-3 mt-5 rounded-xl w-[350px] xl:w-[600px] border-solid border-white hover:bg-white/10 xl:hover:-ml-2 xl:hover:w-[605px] duration-150"
+            className="flex flex-row bg-white/5 p-2 xl:p-3 mt-5 rounded-xl w-[350px] xl:w-[600px] border-solid border-white hover:bg-white/10 xl:hover:-ml-2 xl:hover:w-[605px] duration-150"
             >
 
               {/* Image */}
